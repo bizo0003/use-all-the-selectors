@@ -1,3 +1,14 @@
+html {
+  box-sizing: border-box;
+  background-color: #f2f1ed;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #fdf6e3;
 }
@@ -26,8 +37,12 @@ div:first-child {
   background-color: #b58900;
 }
 
-strong:first-child {
-  color: #fff;;
+.dfn strong:nth-child(2) {
+  color: #fff;
+}
+
+.dfn {
+  background-color: #b58900;
 }
 
 a:not(.no-highlight) {
